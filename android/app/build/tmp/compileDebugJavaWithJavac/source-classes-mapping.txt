@@ -1,0 +1,14 @@
+com/farmdidi/BuildConfig.java
+ com.farmdidi.BuildConfig
+com/farmdidi/MainApplication.java
+ com.farmdidi.MainApplication
+ com.farmdidi.MainApplication$1
+com/farmdidi/ReactNativeFlipper.java
+ com.farmdidi.ReactNativeFlipper
+ com.farmdidi.ReactNativeFlipper$1
+ com.farmdidi.ReactNativeFlipper$2
+ com.farmdidi.ReactNativeFlipper$2$1
+com/farmdidi/MainActivity.java
+ com.farmdidi.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
