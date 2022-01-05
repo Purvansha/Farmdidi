@@ -12,6 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		3B9BED56418B4461BFC9F947 /* Soft-Core.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5950749C7F804E059E370338 /* Soft-Core.ttf */; };
+		01B507582BBE41F2B31FA040 /* xstore-icons-light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E25A1345D4319A0990831 /* xstore-icons-light.woff */; };
+		431F5FC45FDB4DCCACD49B68 /* QuickSand.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB5DA2BED16419FA2819BA9 /* QuickSand.woff2 */; };
+		65CF045935994B50A93CEA3D /* QuickSand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7160E50990674B07943BB040 /* QuickSand.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Farmdidi/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Farmdidi/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5950749C7F804E059E370338 /* Soft-Core.ttf */ = {isa = PBXFileReference; name = "Soft-Core.ttf"; path = "../app/assets/fonts/Soft-Core.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D8E25A1345D4319A0990831 /* xstore-icons-light.woff */ = {isa = PBXFileReference; name = "xstore-icons-light.woff"; path = "../app/assets/fonts/xstore-icons-light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CB5DA2BED16419FA2819BA9 /* QuickSand.woff2 */ = {isa = PBXFileReference; name = "QuickSand.woff2"; path = "../app/assets/fonts/QuickSand.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7160E50990674B07943BB040 /* QuickSand.ttf */ = {isa = PBXFileReference; name = "QuickSand.ttf"; path = "../app/assets/fonts/QuickSand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				00E356EF1AD99517003FC87E /* FarmdidiTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4FC2774F8CF04D83AF5FEC38 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +132,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		4FC2774F8CF04D83AF5FEC38 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5950749C7F804E059E370338 /* Soft-Core.ttf */,
+				2D8E25A1345D4319A0990831 /* xstore-icons-light.woff */,
+				2CB5DA2BED16419FA2819BA9 /* QuickSand.woff2 */,
+				7160E50990674B07943BB040 /* QuickSand.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +235,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3B9BED56418B4461BFC9F947 /* Soft-Core.ttf in Resources */,
+				01B507582BBE41F2B31FA040 /* xstore-icons-light.woff in Resources */,
+				431F5FC45FDB4DCCACD49B68 /* QuickSand.woff2 in Resources */,
+				65CF045935994B50A93CEA3D /* QuickSand.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
