@@ -1,15 +1,12 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native'
-
-import Home from './screens/home'
+import { NavigationContainer } from '@react-navigation/native';
+import DrawerNav from './navigation/navigators/drawer';
 
 const App = () => {
     return (
-        <View style={{ flex: 1, backgroundColor: 'white' }}>
-            <Text style={{ fontSize: 30, fontFamily:'Soft-Core'}}>Helloo</Text>
-            <Text style={{ fontSize: 30, fontFamily: 'QuickSand' }}>Helloo</Text>
-        </View>
+        <NavigationContainer>
+            <DrawerNav></DrawerNav>
+        </NavigationContainer>
     )
-};
-
-export default App
+}
+export default App;
