@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button, View } from 'react-native'
 import { Card, Title } from 'react-native-paper';
 import { globalStyles } from '../../../../styles';
 
 const ProductCard = () => {
-    const itemsName = [{ name: 'Lemon Crush Pickle', descr: 'skjhkshhfks' }, { name: 'Bitter Gourd Pickle', descr: 'lsjkdhkshorwhoosv' }]
+    const itemsName = [{ name: 'Lemon Crush', descr: 'skjhkshhfks' }, { name: 'Bitter Gourd Pickle', descr: 'lsjkdhkshorwhoosv' }]
+    const [names, setNames] = useState(itemsName)
+
     const updateItems = () => {
-        itemsName[2] = { name: 'cheufuewf', descr: 'fewifhiewcjkdj' }
+        setNames(prev => [...prev, { name: 'hello' }])
+        // console.log(itemsName)
     }
 
     return (
-
-        <View style={{ flexDirection: 'row' }}>
+        <View style={{}}>
             {
-                itemsName.map((item, key) => {
+                names.map((item, key) => {
                     return (<Card key={key}>
                         <Card.Content>
                             <Card.Cover source={require('../../../../assets/images/lemon.png')} />
@@ -25,7 +27,10 @@ const ProductCard = () => {
                     </Card>);
                 })
             }
-            <Button title='click me' onPress={updateItems} />
+            <View style={{ width: 50, height: 50 }}>
+                <Button title='click me' onPress={updateItems} color='red' />
+            </View>
+
         </View>
 
     )
